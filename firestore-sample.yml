@@ -1,0 +1,15 @@
+server:
+  servlet:
+    context-path: /firestore
+  port: 8081
+
+feign:
+  hystrix:
+    enabled: true
+# mongodb
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: testdb
