@@ -1,15 +1,12 @@
 server:
   servlet:
-    context-path: /firestore
+    context-path: /v1
   port: 8081
 
 feign:
   hystrix:
     enabled: true
-# mongodb
-spring:
-  data:
-    mongodb:
-      host: localhost
-      port: 27017
-      database: testdb
+# Message Properties
+firestore:
+  message: Fire Store Sample is running.
+
