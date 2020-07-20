@@ -8,5 +8,5 @@ feign:
     enabled: true
 # Message Properties
 firestore:
-  message: Fire Store Sample service is running.
+  message: Fire Store Sample is running.
 
